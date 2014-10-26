@@ -1,0 +1,63 @@
+.nav-wrapper {
+	margin-top:10px;
+	width:100%;
+	position:fixed;
+	z-index:5000;
+}
+
+nav {
+	width:350px;
+	margin:auto;
+}
+
+nav ul{
+	display:inline;
+	padding:30px;
+}
+
+nav ul li{
+	display: inline;
+	}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	margin-right:25px;
+}
+
+.navArrow {
+	width:100%;
+	z-index:5000;
+	margin-top:41vh;
+	height:20px;
+	position:absolute;
+}
+
+.navLeft {
+	float:left;
+	margin-left:2%;
+	a {
+		font-size:15px;
+	}
+}
+
+.navRight {
+	float:right;
+	margin-right:2%;
+	a {
+		font-size:15px;
+	}
+}
+
+
+@media (max-width:400px) {
+	.navArrow {
+		margin-top:46vh;
+	}
+	.navLeft {
+		margin-left:5%;
+	}
+	.navRight {
+		margin-right:5%;
+	}
+}
