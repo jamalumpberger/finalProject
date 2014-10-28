@@ -3,13 +3,13 @@ $(document).ready(function(){
 	$('a').click(function(){
 		if ($(window).width() < 600) 
 		{	
-			$('a').fadeOut(400);
-			$('a').fadeIn(400);
+			$('a, p').fadeOut(400);
+			$('a, p').fadeIn(400);
 		}
 		else 
 		{
-			$('a').fadeOut(800);
-			$('a').fadeIn(800);
+			$('a, p').fadeOut(800);
+			$('a, p').fadeIn(800);
 		}
 	})
 
@@ -217,6 +217,15 @@ $(document).ready(function(){
 			$.scrollTo('#home', 800);
 		}
 	})
+
+	// if (window.location.hash === '#home') 
+	// {
+	// 	$('a').css("color", "black");
+	// }
+	// else
+	// {
+	// 	$('a').css("color", "white");
+	// }
 
     $('body').bind('touchmove', function(e)
 	{
